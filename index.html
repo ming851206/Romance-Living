@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <img src="./image/Logo/Group.svg" alt="logo">
+    <header class="px-lg-5 px-3">
+        <img class="logo1" src="./image/Logo/logo1.svg" alt="logo">
+        <img class="logo2" src="./image/Logo/logo2.svg" alt="logo">
         <nav>
-            <ul class="pages">
+            <ul class="pages mobile">
                 <li><a class="body1" href="">精選傢俱</a></li>
                 <li><a href="">風格商城</a></li>
                 <li><a href="">品牌介紹</a></li>
@@ -27,6 +28,7 @@
                 <input type="text" placeholder="Search...">
                 <div class="searchIcon item"></div>
             </li>
+            <li class="icon menu"></li>
             <li class="icon cart"></li>
             <li class="icon profile"></li>
         </ul>
@@ -35,19 +37,19 @@
     <div class="container-fluid full banner">
         <div class="row title">
             <img src="./image/logo(white).svg">
-            <h3 class="subtitle mx-auto mt-2 mb-5">用浪漫，妝點你的家</h3>
+            <h3 class="subtitle mx-auto mt-2 mb-md-5 mb-4">用浪漫，妝點你的家</h3>
             <button class="btn primary large">開始選購</button>
         </div>
     </div>
 
     <article class="container-fluid news px-5">
-        <div class="row">
+        <div class="row mx-5">
             <div class="lamp col-7 p-0 h-100">
                 <img src="./image/lamp.jpg" class="w-100 h-100">
             </div>
-            <div class="salesText col-5 p-0">
-                <h6 class="newTitle">- NEWS - </h6>
-                <h4>義大利 Berottini<br>燈飾商品</h4>
+            <div class="salesText col-md-5 p-0">
+                <h5 class="newTitle">- NEWS - </h5>
+                <h3>義大利 Berottini<br>燈飾商品</h3>
                 <div class="sales">
                     <h2>限時  9折優惠中</h2>
                 </div>
@@ -57,10 +59,10 @@
     <main>
         <div class="container-fluid category px-5">
             <h2 class="mb-5">商品類別</h2>
-            <div class="row">
+            <div class="row mx-3">
                 <div class="col-4">
                     <div class="item each p-2">
-                        <div class="imgBorderå">
+                        <div class="imgBorder">
                             <img src="./image/category1.jpg" class="w-100">
                         </div>
                         <h4>經典傢俱</h4>
@@ -192,7 +194,7 @@
         <div class="container-fluid blog p-5">
             <h2 class="mb-5">相關文章</h2>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div class="item">
                         <div class="coverPhoto">
                             <img src="./image/blog1.jpg" class="w-100">
@@ -204,12 +206,12 @@
                             </div>
                             <h4>初心者的室內設計指南</h4>
                             <p class="body1">為自己打造一個舒適安心、療癒且放鬆身心靈的居家環境一點都不難！</p>
-                            <a href="">more</a>
+                            <a href="">【 More 】</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 second">
                     <div class="item">
                         <div class="coverPhoto">
                             <img src="./image/blog2.jpg" class="w-100">
@@ -221,12 +223,12 @@
                             </div>
                             <h4>善用綠色植物打造居家環境</h4>
                             <p class="body1">擔心自己不是綠手指，而遲遲不敢迎接綠色植物進來家中嗎？不用擔心！我們教你如何......</p>
-                            <a href="">more</a>
+                            <a href="">【 More 】</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-4 third">
                     <div class="item">
                         <div class="coverPhoto w-100">
                             <img src="./image/blog3.jpg" class="w-100">
@@ -238,7 +240,7 @@
                             </div>
                             <h4>北歐風格室內設計介紹</h4>
                             <p class="body1">自從知名瑞典傢俱賣場進入台灣後，北歐風格家飾就受到許多人的喜愛，究竟什麼是......</p>
-                            <a href="">more</a>
+                            <a href="">【 More 】</a>
                         </div>
                     </div>
                 </div>
@@ -283,10 +285,10 @@
             <p class="body1">&copy; Romance Living All Rights Reserved </p>
             <div class="follow">
                 <p class="body1">Follow us</p>
-                <img src="./image/icon/fb.svg">
-                <img src="./image/icon/ig.svg">
-                <img src="./image/icon/twitter.svg">
-                <img src="./image/icon/yt.svg">
+                <img class="item" src="./image/icon/fb.svg">
+                <img class="item" src="./image/icon/ig.svg">
+                <img class="item" src="./image/icon/twitter.svg">
+                <img class="item" src="./image/icon/yt.svg">
             </div>
         </div>
     </footer>
