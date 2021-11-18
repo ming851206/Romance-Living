@@ -5,8 +5,8 @@ body{
     box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-family: 'Noto Serif TC', serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Noto Serif TC', serif;      
     font-weight: bold;
     text-align: center;
     color: #7C6410;
