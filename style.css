@@ -35,7 +35,26 @@ h5{
 h6{
     font-size: 18px;
 }
-
+@media (max-width: 576px) {
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 14px;
+    }
+}
 p, a{
     text-decoration: none;
     line-height: 160%;
@@ -119,7 +138,8 @@ input{
     color: #8E8E8E;
 }
 input:focus{
-    outline: 1px solid #C59E17;
+    outline: none;
+    box-shadow: 0px 0px 0px 1.2px #c59e1c inset;
 }
 header{
     background: #F8F5EC;
@@ -172,7 +192,8 @@ ul{
     height: 100%;
 }
 .search input:focus{
-    outline: none
+    outline: none;
+    box-shadow: none;
 }
 @media (max-width: 1200px) {
     .search{
@@ -247,6 +268,9 @@ ul{
     .banner{
         height: 242;
     }
+    .banner img{
+        width: 80%;
+    }
 }
 .news{
     margin: 120px 0 100px;
@@ -259,21 +283,6 @@ ul{
 .salesText{
     margin: auto;
 }
-@media (max-width: 992px) {
-    .news .row{
-        flex-direction: column;
-    }
-    .lamp{
-        width: 100%;
-    }
-    .newTitle{
-        display: none;
-    }
-    .salesText{
-        margin: 20px auto;
-    }
-}
-
 .newTitle{
     color: #7C6410;
 }
@@ -292,6 +301,36 @@ ul{
 .sales h2{
     color: #4E2805;
 }
+@media (max-width: 992px) {
+    .news{
+        margin: 80px 0;
+    }
+    .newTitle{
+        display: none;
+    }
+    .salesText{
+        margin: 20px auto;
+    }
+}
+@media (max-width: 768px){
+    .lamp{
+        width: 100%;
+    }
+    .salesText h3{
+        margin: 0 auto 12px;
+    }
+}
+@media (max-width: 576px) {
+    .news{
+        margin: 80px 0;
+    }
+    .sales{
+        padding: 12px;
+        width: 80%;
+        padding: 12px 8px;
+
+    }
+}
 .category{
     margin: 100px 0 144px;
 }
@@ -305,6 +344,19 @@ ul{
     margin-top: 12px;
     color: #4E2805;
 }
+@media (max-width: 992px) {
+    .category{
+        margin: 80px 0;
+    }
+}
+@media (max-width: 992px) {
+    .each{
+        height: 232px;
+    }
+    .each h4{
+        margin: 18px;
+    }
+}
 .carosul{
     display: flex;
 }
@@ -316,6 +368,11 @@ ul{
 .newProduct{
     margin-top: 110px;
 }
+@media (max-width: 576px) {
+    .newProduct{
+        margin-top: 70px;
+    }
+}
 .newProduct .item{
     text-align: center;
 }
@@ -323,6 +380,16 @@ ul{
     height: 230px;
     border-radius: 10px;
     overflow: hidden;
+}
+@media (max-width: 992px) {
+    .newProduct .forth{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .newProduct .third{
+        display: none;
+    }
 }
 .blog{
     background: #F8F5EC;
@@ -343,6 +410,9 @@ ul{
     }
 }
 @media (max-width: 576px){
+    .blog{
+        margin-top: 80px;
+    }
     .blog .second{
         display: none;
     }
@@ -370,9 +440,24 @@ ul{
     line-height: 60px;
     font-weight: 400;
 }
-
+@media (max-width: 768px) {
+    .helpYou{
+        font-size: 24px;
+    }
+    section .title{
+        font-size: 24px;
+    }
+}
+@media (max-width: 576px) {
+    .helpYou{
+        font-size: 16px;
+    }
+    section .title{
+        font-size: 16px;
+    }
+}
 .subscribe{
-    margin: 168px auto 118px;
+    margin: 128px auto;
 }
 .subInput{
     display: flex;
@@ -404,7 +489,7 @@ ul{
 }
 footer{
     background: #F8F5EC;;
-    padding: 50px 72px;
+    padding: 50px 0;
 }
 footer .text{
     display: flex;
