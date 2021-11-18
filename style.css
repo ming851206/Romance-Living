@@ -372,6 +372,9 @@ ul{
     .newProduct{
         margin-top: 70px;
     }
+    .item p{
+        text-align: left;
+    }
 }
 .newProduct .item{
     text-align: center;
@@ -389,6 +392,11 @@ ul{
 @media (max-width: 768px) {
     .newProduct .third{
         display: none;
+    }
+}
+@media (max-width: 576px) {
+    .newProduct .item .photo{
+        height: 140px;
     }
 }
 .blog{
@@ -462,6 +470,11 @@ ul{
 }
 .subscribe{
     margin: 128px auto;
+}
+@media (max-width: 576px){
+    .subscribe{
+        margin: 90px auto;
+    }  
 }
 .subInput{
     display: flex;
