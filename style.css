@@ -156,8 +156,8 @@ ul{
     padding: 0;
     display: flex;
 }
-.pages{
-    gap: 28px;
+.pages li:nth-child(2n){
+    margin: 0 28px;
 }
 .pages li a{
     color: #4E2805;
