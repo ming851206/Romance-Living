@@ -266,7 +266,7 @@ ul{
 }
 @media (max-width: 576px) {
     .banner{
-        height: 242;
+        height: calc(100vh - 80px);
     }
     .banner img{
         width: 80%;
